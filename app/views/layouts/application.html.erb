@@ -17,6 +17,16 @@
       <div class="site-wrapper-inner">
         <div class="cover-container">
 
+        <%= video_tag(
+            'Inbox-Zero.mp4',
+            id: 'background',
+            autoplay: true,
+            loop: true,
+            poster: 'Inbox-Zero.jpg'
+            )
+            %>
+
+
           <%= render "shared/application_nav" %>
 
           <%= yield %>
