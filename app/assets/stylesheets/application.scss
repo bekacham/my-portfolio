@@ -157,7 +157,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 58rem;
+    width: 60rem;
   }
 }
 
@@ -200,12 +200,25 @@ body {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('bonnie_7.jpg') no-repeat;
+  background: image-url('Love-Coding.jpg') no-repeat;
   background-size: cover;
 }
 
 .app-footer {
   color: white;
+}
+
+.tech-news {
+  color: black;
+  margin: 20px;
+}
+
+.tech-news a {
+  color: green;
+}
+
+.tech-news > .card {
+  padding: 15px;
 }
 
 
