@@ -136,7 +136,7 @@ h6, .h6 {
 }
 .blog-pagination > .btn {
   border-radius: 2rem;
-}
+  }
 
 
 /*
@@ -149,7 +149,6 @@ h6, .h6 {
 .blog-post-title {
   margin-bottom: .25rem;
   font-size: 2.5rem;
-  color: #b19cd9;
 }
 .blog-post-meta {
   margin-bottom: 1.25rem;
@@ -206,3 +205,52 @@ h6, .h6 {
  .blog-sidebar-source {
   margin-top: 20px;
  }
+
+ .blog-post-title a {
+  color: #b19cd9;
+ }
+
+.pagination {
+  padding:.3em;margin:.3em; font: 13.34px helvetica,arial,freesans,clean,sans-serif;
+  }
+
+.pagination a {
+  padding:.1em .3em;
+  margin:.2em;
+  border:1px solid #b19cd9;
+  text-decoration:none;
+  color:#b19cd9;
+  }
+
+.pagination a:hover,.pagination a:active {
+  border:1px solid #000;
+  color:#000;
+  }
+
+.pagination span.current {
+  padding:.1em .3em;
+  margin:.2em;
+  border:1px solid #b19cd9;
+  font-weight:bold;
+  background-color:#b19cd9;
+  color:#b19cd9;
+  }
+
+.pagination span.disabled {
+padding:.1em .3em;
+margin:.2em;
+border:1px solid #eee;
+color:#ddd;
+}
+
+p a {
+  color: #b19cd9;
+}
+
+span a {
+  color: #b19cd9;
+}
+
+span a:hover {
+  color: black;
+}
