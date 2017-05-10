@@ -158,7 +158,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 60rem;
+    width: 70rem;
   }
 }
 
@@ -214,8 +214,9 @@ body {
 }
 
 .tech-news {
+  font-family: Raleway;
   color: black;
-  margin: 20px;
+  margin: 15px;
 }
 
 .tech-news a {
@@ -245,14 +246,19 @@ body {
 
 .font-awesome a {
   color: #b19cd9;
+  font-size: 1.3em;
   float: left;
-  margin: 60px 30px 40px 0px;
+  margin: 50px 30px 40px 0px;
 }
 
+.homepage {
+  float: none;
+  margin: 0 auto;
+}
 
-
-
-
+.contact {
+  font-weight: bold;
+}
 
 
 
